@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { loginUser } from "../utils/api";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/Authcontext";
 import Input from "../Components/ui/input";
 import StarBorder from "../Components/ui/StarBorder";
 import Particles from "../Components/ui/Particles";
