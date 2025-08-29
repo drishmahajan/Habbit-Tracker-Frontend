@@ -1,6 +1,6 @@
 // Dashboard.jsx
 import { useEffect, useState } from "react";
-import AddHabitForm from "../Components/AddHabitForm";
+import AddHabitForm from "../Components/AddHabitform";
 import Calendar from "react-calendar";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
 import { motion, AnimatePresence } from "framer-motion";
