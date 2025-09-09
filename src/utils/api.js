@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://habbit-tr.onrender.com/api",
+  baseURL: "https://habbit-tracker-backend-2.onrender.com/api",
 });
 
 export const loginUser = (data) => API.post("/auth/login", data);
